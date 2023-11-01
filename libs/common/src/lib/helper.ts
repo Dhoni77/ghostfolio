@@ -355,8 +355,8 @@ export function calculateBenchmarkTrend(
   return latestDataAvg > oldDataAvg
     ? 'UP'
     : latestDataAvg < oldDataAvg
-      ? 'DOWN'
-      : 'NEUTRAL';
+    ? 'DOWN'
+    : 'NEUTRAL';
 }
 
 export function calculateMovingAverage(prices: Big[], days: number) {
